@@ -24,8 +24,6 @@ public class Driver {
         System.out.print("Age: ");
         int studentAge = sc.nextInt();
         System.out.print("CGPA: ");
-        double studentCgpa = sc.nextDouble();
-        s1.setDetails(studentName, studentAge, studentCgpa);
 
         t1.showName();
         t1.showAge();
